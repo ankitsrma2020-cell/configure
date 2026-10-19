@@ -1,0 +1,1 @@
+export const projects=[{id:'atlas',name:'Atlas website',progress:72,color:'#635bff'},{id:'brand',name:'Brand refresh',progress:48,color:'#f59e0b'},{id:'mobile',name:'Mobile app',progress:91,color:'#22a06b'},{id:'ops',name:'Operations hub',progress:100,color:'#ec4899'}];

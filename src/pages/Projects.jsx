@@ -1,0 +1,3 @@
+import { projects } from '../data/projects';
+import Badge from '../components/Badge';
+export default function Projects(){return <section className="page-section"><div className="page-heading"><div><h1>Projects</h1><p className="muted">Keep your team aligned on the work that matters.</p></div></div>{projects.map((project)=><article className="card project-row" key={project.id}><span className="project-dot" style={{background:project.color}}/><span className="project-name">{project.name}</span><Badge tone={project.progress===100?'success':'default'}>{project.progress===100?'Complete':'In progress'}</Badge><span>{project.progress}%</span></article>)}</section>;}

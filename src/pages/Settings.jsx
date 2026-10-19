@@ -1,0 +1,2 @@
+import ThemeToggle from '../components/ThemeToggle';
+export default function Settings(){return <section className="page-section"><div className="page-heading"><div><h1>Settings</h1><p className="muted">Manage your workspace preferences.</p></div></div><article className="card"><h2>Preferences</h2><p className="muted" style={{marginBottom:20}}>Choose how Atlas behaves for you.</p><ThemeToggle/></article></section>;}

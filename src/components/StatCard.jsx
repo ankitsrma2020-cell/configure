@@ -1,0 +1,1 @@
+export default function StatCard({label,value,trend,negative}){return <article className="card"><div className="stat-label">{label}</div><div className="stat-value">{value}</div><div className={`stat-trend ${negative?'down':''}`}>{trend}</div></article>;}

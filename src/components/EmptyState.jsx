@@ -1,0 +1,1 @@
+export default function EmptyState({title='Nothing here yet',description='New items will appear here when they are created.'}){return <div className="card empty-state"><h3>{title}</h3><p className="muted">{description}</p></div>;}

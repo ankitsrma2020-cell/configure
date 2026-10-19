@@ -1,0 +1,1 @@
+export const stats=[{label:'Active projects',value:'12',trend:'+18.2% this month'},{label:'Tasks completed',value:'284',trend:'+12.5% this month'},{label:'Team members',value:'24',trend:'+2 new members'},{label:'Hours tracked',value:'1,248',trend:'-4.6% this month',negative:true}];
